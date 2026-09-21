@@ -12,3 +12,9 @@ Calcule e mostre na tela o Custo Por Clique (CPC) médio da campanha formatado e
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_investido = float(input("valor_total_investigado_na_camapanha (em R$)"))
+cliques_obtidos = int(input("numero total_de_cliques _obtidos"))
+custo_cliques = valor_investido / cliques_obtidos
+print("o custo por cliques:", custo_cliques)
+
+

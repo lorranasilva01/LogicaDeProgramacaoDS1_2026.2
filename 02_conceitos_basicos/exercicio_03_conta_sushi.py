@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_consumido =float(input("digite o valor total consumido no restaurante (R$):"))
+taxa = valor_consumido *  (10/100)
+valor_final = valor_consumido + taxa
+print("valor final da conta e:" , valor_final)

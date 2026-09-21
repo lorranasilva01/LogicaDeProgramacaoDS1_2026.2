@@ -20,3 +20,9 @@ SUA MISSÃO:
 # print("A média do aluno é:", media)
 
 # TODO: Escreva aqui o código corrigido:
+
+# TODO: Escreva aqui o código cor
+nota1 = float(input("digite a primeira nota"))
+nota2 = float(input("digite a segunda nota"))
+media = (nota1 + nota2) / 2
+print("a media do aluno e: ", media)
