@@ -20,4 +20,15 @@ SUA MISSÃO:
 # elif faturamento > 100000:
 #     taxa = faturamento * 0.15
 
-# TODO: Escreva aqui a versão corrigida:
+# TODO: Escreva aqui a versão corrigido
+faturamento = float (input("informe o faturamento anual"))
+if faturamento > 100000:
+        taxa = faturamento * 0.15
+elif faturamento > 50000:
+        taxa = faturamento * 0.10
+elif faturamento > 0:
+        taxa = faturamento * 0.5
+else:
+        taxa = 0.0
+        print("faturamento invalido ou insento")
+print (F"missão cumprida! a taxa comecial calculada é: R$ {taxa:.2f}")
