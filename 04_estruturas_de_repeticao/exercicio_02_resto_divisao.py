@@ -8,4 +8,11 @@ Utilize o laço for para imprimir todos os inteiros entre X e Y (em ordem cresce
 cujo resto da divisão por 5 seja igual a 2 ou igual a 3.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: Desenvolva o algoritmo abaixo
+x = int(input("digite o valor da inicial"))
+y = int(input("digite o valor final"))
+inicio = min(x , y)
+fim = max (x  , y)
+for num in range(inicio, fim + 1):
+    if num % 5 == 2 or num % 5 == 3:
+        print(num)
